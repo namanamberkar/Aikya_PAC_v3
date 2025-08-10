@@ -843,7 +843,8 @@
                 'Kadri Properties': [],
                 'Falnir Properties': [],
                 'R-Block': [],
-                'Standalone Apartments': []
+                'Standalone Apartments': [],
+                'Palace Property': []
             };
 
             // Group rooms based on keywords in their names
@@ -853,6 +854,7 @@
                 else if (r.includes('kadri')) grouped['Kadri Properties'].push(room);
                 else if (r.includes('falnir')) grouped['Falnir Properties'].push(room);
                 else if (r.startsWith('r')) grouped['R-Block'].push(room);
+                else if (r.includes('palace')) grouped['Palace Property'].push(room);
                 else grouped['Standalone Apartments'].push(room);
             });
 
@@ -907,3 +909,4 @@
   </script>
 </body>
 </html>
+
