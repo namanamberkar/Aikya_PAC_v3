@@ -31,7 +31,7 @@ function doGet(e) {
     // --- Hardcoded list of all property/room columns to check for detailed availability ---
     const PROPERTY_COLUMNS = [
       '101', '102', '201', '202', '302', 'Kadri 2BHK', 'Kadri 3BHK',
-      'Villa 2BHK', 'Villa 1BHK', 'Falnir 2BHK', 'R401', 'R402'
+      'Villa 2BHK', 'Villa 1BHK', 'Falnir 2BHK', 'R401', 'R402', 'Palace'
     ];
 
     let availableRoomsForDate = []; // For the detailed view
